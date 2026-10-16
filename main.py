@@ -39,8 +39,8 @@ def main():
             logging.info("đã load thành công json")
         records = validate(data)
         logging.info(f"Đã lấy dc {len(records)} records")
-        validate_records = validate(data=data)
-        logging.info(f"Đã Pass kiểm tra: {len(validate_records)}")
+        
+        logging.info(f"Đã Pass kiểm tra: {len(records)}")
         csv_path = save_csv(country=country,records=records)
         logging.info(f"Đã lưu file csv {csv_path}")
     except Exception:
