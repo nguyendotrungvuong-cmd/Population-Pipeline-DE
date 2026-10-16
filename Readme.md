@@ -67,5 +67,3 @@ python main.py --country vietnam --mode load_json
 - `data/raw/`: File JSON gốc.
 - `data/processed/`: File CSV.
 - `logs/`: Nhật ký chạy chương trình.
-
-**Lưu ý:** Không đưa API key thật hoặc file `.env` lên GitHub.
