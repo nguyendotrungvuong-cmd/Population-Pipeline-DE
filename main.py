@@ -22,7 +22,7 @@ def main():
     country = args.country
     mode = args.mode
     
-    logging.info(f"Country:{country}")
+    logging.info(f"Country: {country}")
     logging.info(f"Mode: {mode}")
     try:
         if mode == "api":
