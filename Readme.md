@@ -1,6 +1,7 @@
 # Population Repo
 
 Bài tập Python xây dựng pipeline thu thập dữ liệu dân số từ API Ninjas, kiểm tra dữ liệu và xuất kết quả ra JSON, CSV.
+https://api-ninjas.com/api/population
 
 ## 1. Chức năng chính
 
