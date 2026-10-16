@@ -48,13 +48,6 @@ Bài tập Python xây dựng pipeline thu thập dữ liệu dân số từ API
 ```bash
 pip install -r requirements.txt
 ```
-
-Tạo file `.env`:
-
-```env
-API_NINJAS_KEY=your_api_key
-```
-
 ## 6. Chạy chương trình
 
 Lấy dữ liệu từ API:
