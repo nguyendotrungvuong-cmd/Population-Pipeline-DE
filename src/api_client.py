@@ -13,5 +13,4 @@ def fetch_population(country,api_key):
     print("Response body:", responses.text)
 
     responses.raise_for_status()
-    responses.raise_for_status()
     return responses.json()

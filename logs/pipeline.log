@@ -235,3 +235,55 @@ ValueError: Tên quốc gia không hợp lệ
 16:57:53 | INFO | Đã Pass kiểm tra: 17
 16:57:53 | INFO | Đã lưu file csv /home/waytodata/projects/population_repo/data/processed/vietnam.csv
 16:57:53 | INFO | Đã chạy thành công pipeline
+17:40:35 | INFO | Country:vietnam
+17:40:35 | INFO | Mode: api
+17:40:35 | INFO | Đang gọi API
+17:40:35 | DEBUG | API key loaded
+17:40:35 | INFO | Đang lấy dữ liệu từ api
+17:40:35 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+17:40:37 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=vietnam HTTP/1.1" 200 6793
+17:40:37 | INFO | Đã lấy thành công Data
+17:40:37 | INFO | Đã lưu thành công json
+17:40:37 | INFO | Đã lấy dc 17 records
+17:40:37 | INFO | Đã Pass kiểm tra: 17
+17:40:37 | INFO | Đã lưu file csv /home/waytodata/projects/population_repo/data/processed/vietnam.csv
+17:40:37 | INFO | Đã chạy thành công pipeline
+17:41:08 | INFO | Country:vietnam
+17:41:08 | INFO | Mode: api
+17:41:08 | INFO | Đang gọi API
+17:41:08 | DEBUG | API key loaded
+17:41:08 | INFO | Đang lấy dữ liệu từ api
+17:41:08 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+17:41:08 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=vietnam HTTP/1.1" 200 6793
+17:41:08 | INFO | Đã lấy thành công Data
+17:41:08 | INFO | Đã lưu thành công json
+17:41:08 | INFO | Đã lấy dc 17 records
+17:41:08 | INFO | Đã Pass kiểm tra: 17
+17:41:08 | INFO | Đã lưu file csv /home/waytodata/projects/population_repo/data/processed/vietnam.csv
+17:41:08 | INFO | Đã chạy thành công pipeline
+17:42:54 | INFO | Country:vietnam
+17:42:54 | INFO | Mode: api
+17:42:54 | INFO | Đang gọi API
+17:42:54 | DEBUG | API key loaded
+17:42:54 | INFO | Đang lấy dữ liệu từ api
+17:42:54 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+17:42:55 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=vietnam HTTP/1.1" 200 6793
+17:42:55 | INFO | Đã lấy thành công Data
+17:42:55 | INFO | Đã lưu thành công json
+17:42:55 | INFO | Đã lấy dc 17 records
+17:42:55 | INFO | Đã Pass kiểm tra: 17
+17:42:55 | INFO | Đã lưu file csv /home/waytodata/projects/population_repo/data/processed/vietnam.csv
+17:42:55 | INFO | Đã chạy thành công pipeline
+17:47:08 | INFO | Country:vietnam
+17:47:08 | INFO | Mode: api
+17:47:08 | INFO | Đang gọi API
+17:47:08 | DEBUG | API key loaded
+17:47:08 | INFO | Đang lấy dữ liệu từ api
+17:47:08 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+17:47:10 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=vietnam HTTP/1.1" 200 6793
+17:47:10 | INFO | Đã lấy thành công Data
+17:47:10 | INFO | Đã lưu thành công json
+17:47:10 | INFO | Đã lấy dc 17 records
+17:47:10 | INFO | Đã Pass kiểm tra: 17
+17:47:10 | INFO | Đã lưu file csv /home/waytodata/projects/population_repo/data/processed/vietnam.csv
+17:47:10 | INFO | Đã chạy thành công pipeline

@@ -1,17 +1,23 @@
-def parse_population(data):
+def validate(data):
     if data == []:
         raise ValueError("Không tìm thấy dữ liệu dân số, hoặc quốc gia không hợp lệ")
     if not isinstance(data,dict):
-        raise ValueError("Response phải là dạng dict")
+        raise TypeError("Data phải có dạng dict")
     if "historical_population" not in data:
-        raise ValueError("Thiếu trường dữ liệu historical_population")
+        raise ValueError("Trường historical_population bị thiếu")
     records = data.get("historical_population")
     if not isinstance(records,list):
-        raise ValueError("Records phải là dạng list")
-    
+        raise TypeError("Records phải có dạng list")
     if not records:
-        raise ValueError("Records ko dc trống")
-    for index,record in enumerate(records,start = 1):
+        raise ValueError("Không tồn tại records")
+    for index,record in enumerate(records,start=1):
         if not isinstance(record,dict):
-            raise ValueError(f"Record phải có dạng dict {index}")
-    return records 
+            raise TypeError(f"{index} Record phải có dạng dict")
+        if not record:
+            raise ValueError(f"{index}Record không tồn tại")
+        for field in record:
+            value = record[field]
+            if value is None:
+                raise ValueError(f"{index} {field} không dc null")
+    return records
+    
