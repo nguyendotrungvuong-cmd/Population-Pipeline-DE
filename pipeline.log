@@ -1,0 +1,10 @@
+01:27:43 | INFO | Country:vietnam
+01:27:43 | INFO | Mode: api
+01:27:43 | INFO | Đang gọi API
+01:27:43 | INFO | Đã gọi API thành công
+01:27:43 | INFO | Đang lấy dữ liệu từ api
+01:27:43 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+01:27:44 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=vietnam HTTP/1.1" 200 6793
+01:27:44 | INFO | Đã lấy thành công Data
+01:27:44 | INFO | Đã lưu thành công json
+01:27:44 | INFO | Đã lấy dc 17

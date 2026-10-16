@@ -1,0 +1,237 @@
+01:29:51 | INFO | Country:vietnam
+01:29:51 | INFO | Mode: api
+01:29:51 | INFO | Đang gọi API
+01:29:51 | INFO | Đã gọi API thành công
+01:29:51 | INFO | Đang lấy dữ liệu từ api
+01:29:51 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+01:29:52 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=vietnam HTTP/1.1" 200 6793
+01:29:52 | INFO | Đã lấy thành công Data
+01:29:52 | INFO | Đã lưu thành công json
+01:29:52 | INFO | Đã lấy dc 17
+01:30:23 | INFO | Country:vietnam
+01:30:23 | INFO | Mode: api
+01:30:23 | INFO | Đang gọi API
+01:30:23 | INFO | Đã gọi API thành công
+01:30:23 | INFO | Đang lấy dữ liệu từ api
+01:30:23 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+01:30:24 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=vietnam HTTP/1.1" 200 6793
+01:30:24 | INFO | Đã lấy thành công Data
+01:30:24 | INFO | Đã lưu thành công json
+01:30:24 | INFO | Đã lấy dc 17
+01:30:33 | INFO | Country:vietnam
+01:30:33 | INFO | Mode: load_json
+01:30:33 | INFO | đã load thành công json
+01:30:33 | INFO | Số record trong danh sách data : 17
+01:55:21 | INFO | Country:vietnam
+01:55:21 | INFO | Mode: api
+01:55:21 | INFO | Đang gọi API
+01:55:21 | DEBUG | API key loaded
+01:55:21 | INFO | Đang lấy dữ liệu từ api
+01:55:21 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+01:55:23 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=vietnam HTTP/1.1" 200 6793
+01:55:23 | INFO | Đã lấy thành công Data
+01:55:23 | INFO | Đã lưu thành công json
+01:55:23 | INFO | Đã lấy dc 17
+01:55:23 | INFO | Đã chạy thành công
+02:45:32 | INFO | Country:vietnam
+02:45:32 | INFO | Mode: api
+02:45:32 | INFO | Đang gọi API
+02:45:32 | DEBUG | API key loaded
+02:45:32 | INFO | Đang lấy dữ liệu từ api
+02:45:32 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+02:45:34 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=vietnam HTTP/1.1" 200 6793
+02:45:34 | INFO | Đã lấy thành công Data
+02:45:34 | INFO | Đã lưu thành công json
+02:45:34 | INFO | Đã lấy dc 17
+02:45:34 | INFO | Đã hoàn thành validate
+02:45:34 | INFO | Đã chạy thành công
+02:50:38 | INFO | Country:vietnam
+02:50:38 | INFO | Mode: api
+02:50:38 | INFO | Đang gọi API
+02:50:38 | DEBUG | API key loaded
+02:50:38 | INFO | Đang lấy dữ liệu từ api
+02:50:38 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+02:50:39 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=vietnam HTTP/1.1" 200 6793
+02:50:39 | INFO | Đã lấy thành công Data
+02:50:39 | INFO | Đã lưu thành công json
+02:50:39 | INFO | Đã lấy dc 17
+02:50:39 | INFO | Đã Pass kiểm tra: 17
+02:50:39 | INFO | Đã chạy thành công
+02:52:09 | INFO | Country:vietnam
+02:52:09 | INFO | Mode: api
+02:52:09 | INFO | Đang gọi API
+02:52:09 | DEBUG | API key loaded
+02:52:09 | INFO | Đang lấy dữ liệu từ api
+02:52:09 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+02:52:10 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=vietnam HTTP/1.1" 200 6793
+02:52:10 | INFO | Đã lấy thành công Data
+02:52:10 | INFO | Đã lưu thành công json
+02:52:10 | ERROR | Thất bại
+Traceback (most recent call last):
+  File "/home/waytodata/projects/population_repo/pratice.py", line 43, in <module>
+    records = parse_population(data)
+  File "/home/waytodata/projects/population_repo/src/validate.py", line 14, in parse_population
+    print(f"Số records null: {record.isna().sum()}")
+                              ^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'isna'
+16:36:11 | INFO | Country:vietnam
+16:36:11 | INFO | Mode: api
+16:36:11 | INFO | Đang gọi API
+16:36:11 | DEBUG | API key loaded
+16:36:11 | INFO | Đang lấy dữ liệu từ api
+16:36:11 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+16:36:14 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=vietnam HTTP/1.1" 200 6793
+16:36:14 | INFO | Đã lấy thành công Data
+16:36:14 | INFO | Đã lưu thành công json
+16:36:14 | INFO | Đã lấy dc 17 records
+16:36:14 | INFO | Đã Pass kiểm tra: 17
+16:36:14 | ERROR | Thất bại
+Traceback (most recent call last):
+  File "/home/waytodata/projects/population_repo/pratice.py", line 48, in <module>
+    csv_path = save_csv(country=country,data=records)
+TypeError: save_csv() missing 1 required positional argument: 'records'
+16:37:03 | INFO | Country:vietnam
+16:37:03 | INFO | Mode: api
+16:37:03 | INFO | Đang gọi API
+16:37:03 | DEBUG | API key loaded
+16:37:03 | INFO | Đang lấy dữ liệu từ api
+16:37:03 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+16:37:04 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=vietnam HTTP/1.1" 200 6793
+16:37:04 | INFO | Đã lấy thành công Data
+16:37:04 | INFO | Đã lưu thành công json
+16:37:04 | INFO | Đã lấy dc 17 records
+16:37:04 | INFO | Đã Pass kiểm tra: 17
+16:37:04 | ERROR | Thất bại
+Traceback (most recent call last):
+  File "/home/waytodata/projects/population_repo/pratice.py", line 48, in <module>
+    csv_path = save_csv(country=country,data=records)
+TypeError: save_csv() got an unexpected keyword argument 'data'
+16:37:28 | INFO | Country:vietnam
+16:37:28 | INFO | Mode: api
+16:37:28 | INFO | Đang gọi API
+16:37:28 | DEBUG | API key loaded
+16:37:28 | INFO | Đang lấy dữ liệu từ api
+16:37:28 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+16:37:29 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=vietnam HTTP/1.1" 200 6793
+16:37:29 | INFO | Đã lấy thành công Data
+16:37:29 | INFO | Đã lưu thành công json
+16:37:29 | INFO | Đã lấy dc 17 records
+16:37:29 | INFO | Đã Pass kiểm tra: 17
+16:37:29 | INFO | Đã lưu file csv /home/waytodata/projects/population_repo/data/processed/vietnam.csv
+16:37:29 | INFO | Đã chạy thành công pipeline
+16:40:52 | INFO | Country:vietnam
+16:40:52 | INFO | Mode: api
+16:40:52 | INFO | Đang gọi API
+16:40:52 | DEBUG | API key loaded
+16:40:52 | INFO | Đang lấy dữ liệu từ api
+16:40:52 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+16:40:53 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=vietnam HTTP/1.1" 200 6793
+16:40:53 | INFO | Đã lấy thành công Data
+16:40:53 | INFO | Đã lưu thành công json
+16:40:53 | INFO | Đã lấy dc 17 records
+16:40:53 | INFO | Đã Pass kiểm tra: 17
+16:40:53 | INFO | Đã lưu file csv /home/waytodata/projects/population_repo/data/processed/vietnam.csv
+16:40:53 | INFO | Đã chạy thành công pipeline
+16:43:11 | INFO | Country:china
+16:43:11 | INFO | Mode: api
+16:43:11 | INFO | Đang gọi API
+16:43:11 | DEBUG | API key loaded
+16:43:11 | INFO | Đang lấy dữ liệu từ api
+16:43:11 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+16:43:12 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=china HTTP/1.1" 200 6948
+16:43:12 | INFO | Đã lấy thành công Data
+16:43:12 | INFO | Đã lưu thành công json
+16:43:12 | INFO | Đã lấy dc 17 records
+16:43:12 | INFO | Đã Pass kiểm tra: 17
+16:43:12 | INFO | Đã lưu file csv /home/waytodata/projects/population_repo/data/processed/china.csv
+16:43:12 | INFO | Đã chạy thành công pipeline
+16:43:34 | INFO | Country:chinaa
+16:43:34 | INFO | Mode: api
+16:43:34 | INFO | Đang gọi API
+16:43:34 | DEBUG | API key loaded
+16:43:34 | INFO | Đang lấy dữ liệu từ api
+16:43:34 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+16:43:35 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=chinaa HTTP/1.1" 200 2
+16:43:35 | INFO | Đã lấy thành công Data
+16:43:35 | INFO | Đã lưu thành công json
+16:43:35 | ERROR | Thất bại
+Traceback (most recent call last):
+  File "/home/waytodata/projects/population_repo/pratice.py", line 43, in <module>
+    records = parse_population(data)
+  File "/home/waytodata/projects/population_repo/src/validate.py", line 3, in parse_population
+    raise ValueError("Response phải là dạng dict")
+ValueError: Response phải là dạng dict
+16:47:57 | INFO | Country:chinaa
+16:47:57 | INFO | Mode: api
+16:47:57 | INFO | Đang gọi API
+16:47:57 | DEBUG | API key loaded
+16:47:57 | INFO | Đang lấy dữ liệu từ api
+16:47:57 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+16:47:58 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=chinaa HTTP/1.1" 200 2
+16:47:58 | INFO | Đã lấy thành công Data
+16:47:58 | INFO | Đã lưu thành công json
+16:47:58 | ERROR | Thất bại
+Traceback (most recent call last):
+  File "/home/waytodata/projects/population_repo/pratice.py", line 43, in <module>
+    records = parse_population(data)
+  File "/home/waytodata/projects/population_repo/src/validate.py", line 3, in parse_population
+    raise ValueError("Response phải là dạng dict")
+ValueError: Response phải là dạng dict
+16:49:04 | INFO | Country:chinaa
+16:49:04 | INFO | Mode: api
+16:49:04 | INFO | Đang gọi API
+16:49:04 | DEBUG | API key loaded
+16:49:04 | INFO | Đang lấy dữ liệu từ api
+16:49:04 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+16:49:05 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=chinaa HTTP/1.1" 200 2
+16:49:05 | INFO | Đã lấy thành công Data
+16:49:05 | INFO | Đã lưu thành công json
+16:49:05 | ERROR | Thất bại
+Traceback (most recent call last):
+  File "/home/waytodata/projects/population_repo/pratice.py", line 43, in <module>
+    records = parse_population(data)
+  File "/home/waytodata/projects/population_repo/src/validate.py", line 3, in parse_population
+    raise ValueError("Response phải là dạng dict")
+ValueError: Response phải là dạng dict
+16:49:25 | INFO | Country:chinaa
+16:49:25 | INFO | Mode: api
+16:49:25 | INFO | Đang gọi API
+16:49:25 | DEBUG | API key loaded
+16:49:25 | INFO | Đang lấy dữ liệu từ api
+16:49:25 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+16:49:26 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=chinaa HTTP/1.1" 200 2
+16:49:26 | INFO | Đã lấy thành công Data
+16:49:26 | INFO | Đã lưu thành công json
+16:49:26 | ERROR | Thất bại
+Traceback (most recent call last):
+  File "/home/waytodata/projects/population_repo/pratice.py", line 43, in <module>
+    records = parse_population(data)
+  File "/home/waytodata/projects/population_repo/src/validate.py", line 4, in parse_population
+    raise ValueError("Tên quốc gia không hợp lệ")
+ValueError: Tên quốc gia không hợp lệ
+16:57:14 | INFO | Country:vietnam
+16:57:14 | INFO | Mode: api
+16:57:14 | INFO | Đang gọi API
+16:57:14 | DEBUG | API key loaded
+16:57:14 | INFO | Đang lấy dữ liệu từ api
+16:57:14 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+16:57:16 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=vietnam HTTP/1.1" 200 6793
+16:57:16 | INFO | Đã lấy thành công Data
+16:57:16 | INFO | Đã lưu thành công json
+16:57:16 | INFO | Đã lấy dc 17 records
+16:57:16 | INFO | Đã Pass kiểm tra: 17
+16:57:16 | INFO | Đã lưu file csv /home/waytodata/projects/population_repo/data/processed/vietnam.csv
+16:57:16 | INFO | Đã chạy thành công pipeline
+16:57:52 | INFO | Country:vietnam
+16:57:52 | INFO | Mode: api
+16:57:52 | INFO | Đang gọi API
+16:57:52 | DEBUG | API key loaded
+16:57:52 | INFO | Đang lấy dữ liệu từ api
+16:57:52 | DEBUG | Starting new HTTPS connection (1): api.api-ninjas.com:443
+16:57:53 | DEBUG | https://api.api-ninjas.com:443 "GET /v1/population?country=vietnam HTTP/1.1" 200 6793
+16:57:53 | INFO | Đã lấy thành công Data
+16:57:53 | INFO | Đã lưu thành công json
+16:57:53 | INFO | Đã lấy dc 17 records
+16:57:53 | INFO | Đã Pass kiểm tra: 17
+16:57:53 | INFO | Đã lưu file csv /home/waytodata/projects/population_repo/data/processed/vietnam.csv
+16:57:53 | INFO | Đã chạy thành công pipeline
